@@ -27,7 +27,7 @@ class TakeoffModel:
         Sto, _ = quad(integrand, 0, V_TO)
         return Sto
 
-class TakeoffView(qtw.QWidget):
+class TakeoffView(qtw.QWidget):     #Outline written by Gemini AI
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Takeoff Distance Calculator")
